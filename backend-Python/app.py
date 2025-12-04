@@ -17,13 +17,13 @@ def serve_index():
 @app.route("/api/data/anime")
 def get_data_anime():
     result = ObtenerDataAnime()
-    print("Data fetched for anime:", result)
+    #print("Data fetched for anime:", result)
     return jsonify(result)
 
 @app.route("/api/data/peliculas")
 def get_data_pelicula():
     result = ObtenerDataPeli()
-    print("Data fetched for peliculas:", result)
+    #print("Data fetched for peliculas:", result)
     return jsonify(result)
 
 @app.route('/images/<path:filename>')

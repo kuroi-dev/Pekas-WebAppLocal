@@ -3,7 +3,22 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Series() {
+
+   useEffect(() => {
+      document.title = "Pecas - Series";
+    }, []);
+  
   const navigate = useNavigate();
+  const [peliculas, setPeliculas] = useState({});
+  const [loading, setLoading] = useState(true); 
+
+  const [showMain, setShowMain] = useState(true);
+  const [showMain2, setShowMain2] = useState(false);
+
+  const [showBtn, setShowBtn] = useState(true);
+  const [showBtn2, setShowBtn2] = useState(false);
+
+  const [selectedCategoria, setSelectedCategoria] = useState('');
 
   const handleBackHome = () => {
     navigate('/');

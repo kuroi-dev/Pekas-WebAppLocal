@@ -86,7 +86,7 @@ def ObtenerDataAnime():
                         "capitulos": capitulos
                     }
     
-    print(json.dumps(json_result_anime, indent=4, ensure_ascii=False))
+    #print(json.dumps(json_result_anime, indent=4, ensure_ascii=False))
     return json_result_anime
 
 
@@ -161,7 +161,7 @@ def ObtenerDataPeli():
                         "peliculas": peliculas_files
                     }
     
-    print(json.dumps(json_result_peliculas, indent=4, ensure_ascii=False))
+    #print(json.dumps(json_result_peliculas, indent=4, ensure_ascii=False))
     return json_result_peliculas
 
 def ObtenerDataSerie():
