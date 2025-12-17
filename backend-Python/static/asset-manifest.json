@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.17956184.css",
-    "main.js": "/static/js/main.fdc30ea3.js",
+    "main.css": "/static/css/main.b285fe60.css",
+    "main.js": "/static/js/main.b8929cdc.js",
     "static/js/453.d7446e4a.chunk.js": "/static/js/453.d7446e4a.chunk.js",
     "static/media/fondoSerie.jpg": "/static/media/fondoSerie.1f27d3a6ba04ecd349db.jpg",
     "static/media/fondoAnime.avif": "/static/media/fondoAnime.40ed98ba4046d349a271.avif",
+    "static/media/logoPekas.png": "/static/media/logoPekas.835004db3d5bb179c8f9.png",
     "static/media/fondoPeli.jpg": "/static/media/fondoPeli.fa259155491ddd7a3357.jpg",
     "index.html": "/index.html",
-    "main.17956184.css.map": "/static/css/main.17956184.css.map",
-    "main.fdc30ea3.js.map": "/static/js/main.fdc30ea3.js.map",
+    "main.b285fe60.css.map": "/static/css/main.b285fe60.css.map",
+    "main.b8929cdc.js.map": "/static/js/main.b8929cdc.js.map",
     "453.d7446e4a.chunk.js.map": "/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17956184.css",
-    "static/js/main.fdc30ea3.js"
+    "static/css/main.b285fe60.css",
+    "static/js/main.b8929cdc.js"
   ]
 }

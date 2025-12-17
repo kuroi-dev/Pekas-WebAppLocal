@@ -5,7 +5,7 @@ import MovieCard from '../../components/MovieCard/MovieCard';
 import CategoryCard from '../../components/CategoryCard/CategoryCard';
 import logoPecas from '../../assets/images/logoPekas.png';
 
-const URL_BASE = "http://localhost:5010/";
+const URL_BASE = "";
 
 function Peliculas() {
 

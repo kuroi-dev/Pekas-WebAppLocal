@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import MovieCard from '../../components/MovieCard/MovieCard';
 import logoPecas from '../../assets/images/logoPekas.png';
 
-const URL_BASE = "http://localhost:5010/";
+const URL_BASE = "";
 
 function Anime() {
 

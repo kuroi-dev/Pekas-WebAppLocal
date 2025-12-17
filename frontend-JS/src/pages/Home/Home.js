@@ -7,7 +7,7 @@ import fondoSerie from '../../assets/images/fondoSerie.jpg';
 import logoPecas from '../../assets/images/logoPekas.png';
 
 
-const URL_BASE = "http://localhost:5010/";
+const URL_BASE = "";
 
 function Home() {
 
