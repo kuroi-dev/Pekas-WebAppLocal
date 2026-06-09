@@ -1,4 +1,4 @@
-# 🎬 CineLocal2 - Pecas
+# CineLocal2 - Pecas
 
 **Aplicación web para gestionar y reproducir contenido multimedia local**
 
@@ -6,7 +6,7 @@ Una plataforma tipo Netflix personalizada para organizar y disfrutar tu colecci�
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Características](#-características)
 - [Tecnologías](#️-tecnologías)
@@ -20,20 +20,20 @@ Una plataforma tipo Netflix personalizada para organizar y disfrutar tu colecci�
 
 ---
 
-## ✨ Características
+## Características
 
-- 🎭 **Gestión de Anime** - Organización por temporadas y episodios
-- 🎬 **Biblioteca de Películas** - Catálogo completo de tu colección
-- 📺 **Series de TV** - Administración de series y temporadas
-- 🎨 **Interfaz moderna** - Diseño tipo Netflix responsive
-- 🖼️ **Logos personalizados** - Sistema automático de imágenes y logos
-- ▶️ **Reproductor integrado** - Reproducción directa desde el navegador
-- 🔍 **Navegación intuitiva** - Categorización clara del contenido
-- 🚀 **Rendimiento optimizado** - Carga rápida y eficiente
+- **Gestión de Anime** - Organización por temporadas y episodios
+- **Biblioteca de Películas** - Catálogo completo de tu colección
+- **Series de TV** - Administración de series y temporadas
+- **Interfaz moderna** - Diseño tipo Netflix responsive
+- **Logos personalizados** - Sistema automático de imágenes y logos
+- **Reproductor integrado** - Reproducción directa desde el navegador
+- **Navegación intuitiva** - Categorización clara del contenido
+- **Rendimiento optimizado** - Carga rápida y eficiente
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 ### Backend (Python)
 - **Flask** - Framework web ligero
@@ -52,7 +52,7 @@ Una plataforma tipo Netflix personalizada para organizar y disfrutar tu colecci�
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 CineLocal2/
@@ -76,7 +76,7 @@ CineLocal2/
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 ### Prerrequisitos
 - Python 3.8+
@@ -118,7 +118,7 @@ npm run build
 
 ---
 
-## ⚙️ Configuración
+## Configuración
 
 ### Configuración del Backend
 
@@ -152,7 +152,7 @@ Y:/                         # Disco de contenido multimedia
 
 ---
 
-## 🎯 Uso
+## Uso
 
 1. **Iniciar la aplicación:**
    - Ejecutar backend: `python app.py`
@@ -169,7 +169,7 @@ Y:/                         # Disco de contenido multimedia
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 CineLocal2/
@@ -207,7 +207,7 @@ CineLocal2/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Datos de Contenido
 - `GET /api/data/anime` - Obtener datos de anime
@@ -227,27 +227,18 @@ CineLocal2/
 
 ---
 
-## 📝 Notas de Desarrollo
+## Notas de Desarrollo
 
 ### Estado Actual
-- ✅ Backend Flask funcional
-- ✅ Frontend React básico
-- ✅ Sistema de archivos implementado
-- ✅ Navegación entre secciones
-- 🔄 Reproductor en desarrollo
-- 🔄 Interfaz de usuario en mejora
+- Backend Flask funcional
+- Frontend React básico
+- Sistema de archivos implementado
+- Navegación entre secciones
+- Reproductor en desarrollo
+- Interfaz de usuario en mejora
 
-### Próximas Funcionalidades
-- [ ] Sistema de búsqueda
-- [ ] Favoritos y listas personalizadas
-- [ ] Historial de reproducción
-- [ ] Mejoras en el reproductor
-- [ ] Sistema de usuarios
-- [ ] Configuración avanzada
 
----
-
-## 🤝 Contribuir
+## Contribuir
 
 1. Fork el proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
@@ -257,34 +248,34 @@ CineLocal2/
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de uso personal. Todos los derechos reservados.
 
 ---
 
-## 🔧 Solución de Problemas
+## Solución de Problemas
 
 ### Problemas Comunes
 
-**❓ El backend no encuentra los archivos multimedia**
+**El backend no encuentra los archivos multimedia**
 - Verificar que `MEDIA_PATH` apunte a la ubicación correcta
 - Asegurar permisos de lectura en la carpeta
 
-**❓ El frontend no conecta con el backend**
+**El frontend no conecta con el backend**
 - Verificar que Flask esté ejecutándose en puerto 5000
 - Comprobar configuración de CORS
 
-**❓ No se muestran las imágenes**
+**No se muestran las imágenes**
 - Verificar que `IMAGES_PATH` sea correcto
 - Confirmar que los nombres de archivo coincidan con la convención
 
 ---
 
-## 👨‍💻 Autor
+## Contacto
 
-**David** - Desarrollador Principal
+David Riquelme  
+Chile  
+david.riquelme.sb@gmail.com  
 
 ---
-
-**🎬 Disfruta tu cine local con Pecas! 🍿**
